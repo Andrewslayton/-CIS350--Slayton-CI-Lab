@@ -14,3 +14,11 @@ def test_calc_multiply_fail():
 def test_calc_divide():
  output = divide_numbers(10,2)
  assert output == 5
+def test_calc_exponent():  
+ output = power_numbers(10,3)
+ assert output == 1000
+def test_calc_mult_add():
+ output = mult_add_numbers(10,3)
+ assert output == 43
+ 
+
